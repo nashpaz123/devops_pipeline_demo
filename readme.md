@@ -4,7 +4,7 @@
 ----------
 
 **Deliverables**:
-This demonstration will simulate a completely automated CI/CD deployment pipeline using Jenkins. It will essentially do the following steps (phases):
+This demonstration will simulate a completely automated CI/CD deployment line using Jenkins. It will essentially do the following steps (phases):
 1. Pull the source code for a Java EE based Project from GIT. (SCM AUTOMATION)
  2. Compile (build) the code using Maven to generate the .war file (BUILD AUTOMATION)
  3. Run Test cases & ensure they pass. (TEST AUTOMATION)
@@ -25,9 +25,3 @@ setenforce 0 # Else disable SELINUX in /etc/sysconfig/selinux  and reboot
  **Execution**:
 Add a Jenkins Build Job As per the below screenshot and build it:
  - Note: Add the build commands from the **jenkins_build_commands.md** file.
-
-![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/Jenkins01.png)
-![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/jenkins02.png)
-![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/jenkins03.png)
-![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/jenkins04.png)
-![Jenkins build job](https://github.com/prasanjit-/devops_pipeline_demo/blob/master/images/jenkins05.png)
