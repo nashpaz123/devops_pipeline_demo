@@ -6,4 +6,4 @@
     you unzipped WildFly under `standalone/deployments`.
  4. Run WildFly by calling `standalone.bat` or `standalone.sh` in `bin`.
  5. Open <http://localhost:8080/> or <http://localhost:8080/sample.txt> in your
-    browser.
+    browser!

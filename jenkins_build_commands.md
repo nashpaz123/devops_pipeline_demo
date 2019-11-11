@@ -28,7 +28,9 @@ echo "..... Provisioning Phase Started :: Building Docker Container :: ......"
 cd ../docker/
 sudo docker build -t devops_pipeline_demo .
 
+#----------------------------------------#
 
+#!/bin/bash
 CONTAINER=devops_pipeline_demo
  
 RUNNING=$(sudo docker inspect --format="{{ .State.Running }}" $CONTAINER 2> /dev/null)
